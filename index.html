@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisorPDF</title>
+</head>
+<body>
+    <div>
+        <h2>Codificar PDF</h2>
+        <form action="#">
+            <label for="PDF">Introducir PDF to base 64</label><br>
+            <br>
+            <input class="File" type="file"><br>
+            <br>
+            <button Class="BotonC">Codificar</button><br>
+            <br>
+            <textarea class="TextArea" rows="10" cols="150"></textarea>
+        </form>
+    </div>
+<div>
+    <h2>Decodificar PDF</h2>
+    <form action="#">
+        <br>
+        <label for="PDF">Introducir PDF from base 64</label><br>
+        <br>
+        <input type="text" class="cadena"><br>
+        <br>
+        <button class="Botton">Decodificar</button><br>
+    </form>
+</div>
+<script language="JavaScript" type="text/javascript" src="js/decodificarPDF.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/Codificarpdf.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.7/uuid.min.js"></script>
+</body>
+</html>
